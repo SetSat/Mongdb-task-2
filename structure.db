@@ -1,0 +1,52 @@
+1. users:
+
+_id
+name
+email
+role  
+mentor_id  
+joined_at  
+
+
+2. codekata:
+
+_id
+user_id  
+date
+problems_solved
+
+
+3. attendance:
+
+_id
+user_id  
+date
+is_present
+
+
+4. topics:
+
+_id
+name
+description
+
+
+5. tasks:
+
+_id
+user_id  
+topic_id  
+date
+is_submitted
+
+6. company_drives:
+
+_id
+date
+students_attended  
+
+7. mentors:
+
+_id
+name
+students_count
